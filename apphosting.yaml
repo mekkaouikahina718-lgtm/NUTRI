@@ -1,3 +1,3 @@
-runConfig:
-  buildCommand: npm install && npx expo export --platform web
-  outputDir: dist
+secrets:
+  - variable: OPENAI_API_KEY
+    secret: openai-api-key
